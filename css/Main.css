@@ -1,0 +1,222 @@
+*{
+	pnadding: 0px;
+	margin: 0px;
+}
+body{
+	overflow-x: hidden;
+}
+ul,li{
+	list-style:none ;
+}
+a{
+	text-decoration: none;
+}
+
+/*
+ * 头部部分
+ */
+#header{
+	background: #191D3A;
+	height: 58px;
+}
+#header_ul li{
+	float: left;
+	width: 90px;
+	line-height: 58px;
+	text-align: center;
+	font-size: 12px;
+	border-right: 1px solid #252947;
+	color: #818496;
+	padding: 0px 5px;
+}
+#header_main{
+	margin: 0px auto;
+	width: 1000px;
+	height: 90px;
+}
+
+/**
+ * 钻石轮播图部分
+ */
+#big_img{
+	position: relative;
+}
+#big_img_logo{
+	position: absolute;
+	left: 46%;
+	top: 90%;
+	/*margin-left: 5px;*/
+	width: 140px;
+	margin: 0px auto;
+}
+#big_img_logo img{
+	padding: 5px;
+}
+/*//设置半透明*/
+/*#big_img_logo img{
+	background-color: rgba(0,0,0.1);
+}*/
+
+
+
+/**
+ * 业务轮播部分
+ */
+#lunbo{
+	margin: 0px auto;
+	width: 1000px;
+	overflow: hidden;
+	margin-top: 50px;
+}
+#lunbo>div{
+	float: left;
+}
+#lunbo img{
+	width: 220px;
+}
+#lunbo ul{
+	padding: 0px;
+	margin-right: 40px;
+}
+#lunbo ul span{
+	color: #38B774;
+}
+#lunbo li{
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+}
+#lunbo_last ul{
+	margin-right: 0px;
+}
+
+
+/**
+ * 业务轮播按钮部分
+ */
+#hr{
+	overflow: hidden;
+	width: 1000px;
+	height: 100px;
+	margin: 0px auto;
+	padding-top: 30px;
+}
+#hr_left{
+	height: 1px;
+	border-bottom: 1px solid #DBE1E7;
+	width: 450px;
+	margin-top: 10px;
+	float: left;
+}
+#hr_img{
+	float: left;
+	margin:0px 18px;
+}
+#hr_right{
+	height: 1px;
+	border-bottom: 1px solid #DBE1E7;
+	width: 450px;
+	margin-top: 10px;
+	right: auto;
+	float: left;
+}
+
+/**
+ * 新闻招聘部分
+ */
+#new{
+	margin: 0px auto;
+	width: 1000px;
+	overflow: hidden;
+}
+#new_left{
+	width: 500px;
+	height: 310px;
+	float: left;
+	background: url(../img/bynewsbg.jpg);
+	position: relative;
+}
+#new_left img{
+	position: absolute;
+	left: 45%;
+	top: 15%;
+}
+#new_left_ul{
+	position: absolute;
+	top: 40%;
+	left: -7%;
+}
+#new_left_ul li{
+	height: 45px;
+	font-size: 13px;
+	line-height: 45px;
+	width:480px;
+	border-bottom: 1px solid #e8e8e8;
+	float: left;
+}
+#new_left_ul span{
+	color: #B7BED2;
+	float: right;
+}
+#new_right{
+	width: 500px;
+	height: 310px;
+	float: left;
+	background: url(../img/byhrbg3.jpg);
+	position: relative;
+}
+#new_right img{
+	position: absolute;
+	left: 40%;
+	top: 15%;
+}
+#new_right_ul li,a:link{
+	color: white;
+}
+#new_right_ul{
+	position: absolute;
+	font-size: 13px;
+	color: white;
+	top: 38%;
+	left: -5%;
+}
+#new_right_title{
+	position: absolute;
+	left: 15%;
+	top: 13%;
+	color: white;
+}
+#new_right_title p{
+	font-size: 13px;
+}
+#new_right_ul li{
+	line-height: 35px;
+	width: 300px;
+	border-bottom: 1px #6FDEA3 solid;
+}
+
+
+/**
+ * 页脚部分
+ */
+#fooder{
+	margin-top: 50px;
+	background: #191D3A;
+	height: 190px;
+}
+#fooder_main{
+	margin: 0px auto;
+	width: 1000px;
+	position: relative;
+}
+#fooder_main p{
+	color: #6C6E7E;
+	line-height: 60px;
+	font-size: 12px;
+}
+#fooder_logo{
+	width: 35px;
+	position: absolute;
+	left: 76%;
+	top: 70%;
+}
